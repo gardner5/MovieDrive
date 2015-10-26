@@ -1,0 +1,11 @@
+Requirements
+	1.Have a homepage that shows recent top rated movies and recently released movies.
+	2. Have an image and description for each movie.
+	3. Allow for login, with moderator, admin, and user accounts.
+	4. Make rating system based on user average(hearts).
+	5. Allow for comment management between users and moderators.
+	6. Allow users to comment on or leave reviews on movie pages.
+	7. Allow user to sort movies by different parameters.
+	8. Make a request queue.
+	9. Allow user to submit a request to add a movie to the repository.
+	10. Display requested movies in pages for admins to accept or deny both with comments.
