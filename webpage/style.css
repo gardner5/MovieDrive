@@ -1,0 +1,69 @@
+body {
+	background-color: pink;
+    background-image: url("puppy1.png"), url("hearts.png");
+}
+#banner{
+	margin:0 0 0 0;
+	background-color: #000000;
+	border-style: solid;
+	border-color: #FF69B4;
+	vertical-align: top;
+	padding-top: 1%;
+	padding-left: 1%;
+	font-size: 100px;
+	color: #FF4242;
+}
+#login{
+	float: right;
+	margin-right: 10px;
+	font-size: 16;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#search{
+	float:left;
+	margin-left: 2px;
+}
+#requestAdd{
+	float:right;
+	margin-right: 2px;
+}
+#tabs{
+	margin: 10px 0px 0px 0px;
+}
+#tab{
+	margin: 0px 0px 0px 0px;
+}
+#movieSection{
+	margin:0 0 0 0;
+	background-color: #ff66b1;
+	opacity: .9;
+	vertical-align: top;
+	border-style: solid;
+	border-color: #000000;
+	color: #000000;
+}
+#movieSectionTitle{
+	font-weight:bold;
+	font-size: 24;
+}
+#movieList{
+
+}
+#movieItem{
+	vertical-align: top;
+}
+#movieTitle{
+	font-weight: bold;
+	font-size: 24;
+	vertical-align: top;
+}
+#movieSummary{
+	width: 1000px;
+	float: right;
+	vertical-align: top;
+}
+#movieRating{
+	float: middle;
+	vertical-align: top;
+}
