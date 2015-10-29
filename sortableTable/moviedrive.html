@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> MovieDrive </title>
+<script src="sorttable.js"> </script>
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+<style type="text/css">
+h2 {color: black; }
+h2 {text-align:center; }
+h3 {color: black; }
+p {color: black; }
+body {background-color: pink; }
+
+table { table-layout: fixed; }
+td { width: 10%; }
+#desc {width: 70%; }
+
+/* #####################HTML for SEARCH BAR APPEARANCE ########################*/
+	#tfnewsearch{
+		float:left;
+		padding:20px 350px;
+	}
+
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px; /*Size of the search font*/
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #800080; /*Border color of the search button*/
+		background: #000000;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #800080;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+/* ############################################################################*/
+
+</style>
+</head>
+<body>
+<h1> MovieDrive <3 </h1>
+
+
+<h2> Welcome to MovieDrive! </h2>
+<p> To implement: Login, Logo, Movie queue, ruby functionality. Check taskboard.
+
+<!-- ################### HTML for SEARCH BAR FUNCTIONALITY ###################-->
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>
+<!-- #########################################################################-->
+<table class="sortable">
+  <tr>
+    <td></td>
+	<td>Title</td>
+    <td id="desc">Description</td> 
+    <td>Rating</td>
+	<td>Year</td>
+  </tr>
+  <tr>
+    <td><img src="puppy.jpg" style="width:100px;height:130px;"</td>
+    <td>Dog</td> 
+    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt nibh. Nulla urna orci, rutrum vitae ipsum quis, tristique tincidunt eros. Aliquam erat volutpat. Vestibulum interdum tincidunt finibus. Cras eros nibh, elementum quis ipsum a, posuere maximus nisl. Maecenas hendrerit arcu non justo varius volutpat. Nunc vitae bibendum lectus. Sed enim erat, maximus eu venenatis quis, ultricies vel augue.</td>
+	<td>3</td>
+	<td>2001</td>
+  </tr>
+  <tr>
+    <td><img src="puppy.jpg" style="width:100px;height:130px;"</td>
+    <td>Puppy</td> 
+    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt nibh. Nulla urna orci, rutrum vitae ipsum quis, tristique tincidunt eros. Aliquam erat volutpat. Vestibulum interdum tincidunt finibus. Cras eros nibh, elementum quis ipsum a, posuere maximus nisl. Maecenas hendrerit arcu non justo varius volutpat. Nunc vitae bibendum lectus. Sed enim erat, maximus eu venenatis quis, ultricies vel augue.</td>
+	<td>2</td>
+	<td>2005</td>
+  </tr>
+  <tr>
+    <td><img src="puppy.jpg" style="width:100px;height:130px;"</td>
+    <td>Canine</td> 
+    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt nibh. Nulla urna orci, rutrum vitae ipsum quis, tristique tincidunt eros. Aliquam erat volutpat. Vestibulum interdum tincidunt finibus. Cras eros nibh, elementum quis ipsum a, posuere maximus nisl. Maecenas hendrerit arcu non justo varius volutpat. Nunc vitae bibendum lectus. Sed enim erat, maximus eu venenatis quis, ultricies vel augue.</td>
+	<td>5</td>
+	<td>2004</td>
+  </tr>
+  <tr>
+    <td><img src="puppy.jpg" style="width:100px;height:130px;"</td>
+    <td>Lab</td> 
+    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt nibh. Nulla urna orci, rutrum vitae ipsum quis, tristique tincidunt eros. Aliquam erat volutpat. Vestibulum interdum tincidunt finibus. Cras eros nibh, elementum quis ipsum a, posuere maximus nisl. Maecenas hendrerit arcu non justo varius volutpat. Nunc vitae bibendum lectus. Sed enim erat, maximus eu venenatis quis, ultricies vel augue.</td>
+	<td>1</td>
+	<td>1995</td>
+  </tr>
+  <tr>
+    <td><img src="puppy.jpg" style="width:100px;height:130px;"</td>
+    <td>Doggy</td> 
+    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt nibh. Nulla urna orci, rutrum vitae ipsum quis, tristique tincidunt eros. Aliquam erat volutpat. Vestibulum interdum tincidunt finibus. Cras eros nibh, elementum quis ipsum a, posuere maximus nisl. Maecenas hendrerit arcu non justo varius volutpat. Nunc vitae bibendum lectus. Sed enim erat, maximus eu venenatis quis, ultricies vel augue.</td>
+	<td>3</td>
+	<td>2015</td>
+  </tr>
+</table>
+  
+  
+</table>
+
+</body>
+</html>
