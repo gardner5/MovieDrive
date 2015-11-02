@@ -1,0 +1,7 @@
+The MovieDrive web page will store movies by year/genre/title and allow users to sign in and to access 
+these movies and leave ratings and reviews on the different movies.  
+Each movie will have a picture, description, and rating.  
+The users will also be able to submit a request to add a movie to the repository.  
+This website will be pink and feature hearts and puppies.  
+The homepage will show 10 top rated/recently released movies, 
+and from there the movies can be sorted by different parameters.
