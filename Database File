@@ -1,0 +1,4 @@
+MovieDrive database using SQLite
+Two Folders currently, Genre and Movies
+Genre(id key, genre text)
+and Movies(id key, name text, genre text, year int)
